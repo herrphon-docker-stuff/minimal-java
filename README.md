@@ -10,19 +10,6 @@
 * <https://keyholesoftware.com/2015/01/05/caching-for-maven-docker-builds/>
 
 
-
-
-
-https://webtide.com/simple-jetty-helloworld-webapp/
-https://github.com/jetty-project/jetty-helloworld-webapp
-
-
-https://www.eclipse.org/jetty/documentation/9.4.x/maven-and-jetty.html
-
-
-https://wiki.eclipse.org/Jetty/Tutorial/Jetty_HelloWorld
-https://wiki.eclipse.org/Jetty/Tutorial/Jetty_and_Maven_HelloWorld
-https://wiki.eclipse.org/Jetty/Tutorial/Embedding_Jetty
-
+* <http://www.eclipse.org/jetty/documentation/current/maven-and-jetty.html>
 
 
