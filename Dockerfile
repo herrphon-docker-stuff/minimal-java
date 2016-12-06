@@ -5,3 +5,5 @@ RUN mkdir -p /home/jetty \
 
 COPY ./target/*.war $JETTY_BASE/webapps/
 
+CMD ['mvn', 'jetty:run']
+
