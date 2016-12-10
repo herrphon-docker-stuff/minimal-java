@@ -8,7 +8,7 @@ import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.handler.AbstractHandler;
 
-public class HelloWorld2 extends AbstractHandler {
+public class HelloWorld extends AbstractHandler {
 
     public void handle(String target,
                        Request baseRequest,

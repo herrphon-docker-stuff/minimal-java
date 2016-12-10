@@ -1,5 +1,4 @@
-
-package com.example;
+package org.example;
 
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -9,7 +8,7 @@ import java.io.IOException;
 
 
 @WebServlet(urlPatterns = {"/*"}, loadOnStartup = 1)
-public class HelloWorldServlet extends HttpServlet {
+public class AnnotatedHelloWorldServlet extends HttpServlet {
 
     @Override
     public void doGet( HttpServletRequest request,

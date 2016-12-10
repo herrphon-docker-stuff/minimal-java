@@ -9,4 +9,7 @@ ADD pom.xml  $APP_HOME
 RUN ["mvn","verify","clean","--fail-never"] 
 
 # Mount/copy/add source to $APP_HOME and run maven something (e.g. verify)
+# RUN ["mvn","verify"]
+
+
 CMD ["mvn", "package"]
