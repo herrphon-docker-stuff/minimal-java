@@ -1,11 +1,15 @@
 # Minimal Java Application Image
 
 
-
 ``` sh
 #!/bin/bash -x
 mvn clean compile exec:java
 ```
+
+## Using multi-stage dockerfiles
+
+* <http://blog.alexellis.io/mutli-stage-docker-builds/>
+* <https://blog.mikesir87.io/2017/03/introducing-docker-multi-stage-builds/>
 
 
 ## Links
