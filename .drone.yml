@@ -10,5 +10,5 @@ steps:
     PASSWORD:
       from_secret: docker_password
   settings:
-    repo: foo/bar
+    repo: herrphon/minimal-java
     tags: latest
