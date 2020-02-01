@@ -2,10 +2,13 @@ kind: pipeline
 name: default
 
 steps:
-- name: docker  
+- name: docker image build
   image: plugins/docker
+  environment:
+    USERNAME:
+      from_secret: docker_username
+    PASSWORD:
+      from_secret: docker_password
   settings:
-    username: kevinbacon
-    password: pa55word
     repo: foo/bar
     tags: latest
