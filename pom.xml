@@ -11,7 +11,7 @@
     <packaging>war</packaging>
 
     <properties>
-        <jettyVersion>9.4.26.v20200117</jettyVersion>
+        <jettyVersion>11.0.1</jettyVersion>
         <servletVersion>3.1.0</servletVersion>
     </properties>
 
